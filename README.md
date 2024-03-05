@@ -5,7 +5,9 @@ Welcome to GaiaTonic, an innovative platform designed to revolutionize small-sca
 GaiaTonic is a comprehensive solution that integrates image recognition, sensor data analysis, and contextual understanding to offer personalized recommendations and strategies. Our platform is designed for:
 
 **Small Scale Farmers:** Offering tools and insights to optimize crop selection, improve yield, and enhance sustainable farming practices.
+
 **Greenhouse Operators:** Providing advanced automation strategies for climate control, irrigation, and pest management to maximize efficiency and productivity.
+
 **Household Green Initiatives:** Encouraging and supporting households in maintaining green spaces, from house plants to small gardens, through expert advice and monitoring.
 
 ## Features
