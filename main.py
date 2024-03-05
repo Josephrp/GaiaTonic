@@ -9,6 +9,7 @@ from chromadb_rm import ChromadbRM
 from langchain.document_loaders import DirectoryLoader
 from ragas.testset.generator import TestsetGenerator
 from ragas.testset.evolutions import simple, reasoning, multi_context
+from autogen import AssistantAgent, UserProxyAgent, config_list_from_json
 from src.teams.teambuilder import TeamCompose
 from src.teams.teamgraph import MultiTeamGraph
 from src.agentics import AgentFactory
@@ -21,8 +22,6 @@ import json
 
 
 ## global vars (move elsewhere)
-
-# Initialize configurations, agents, and group chat environment based on the sample configuration
 
 # Initialize configurations and group chat FSM with three teams based on the configuration
 configurations = config_list_from_json(config_json_content)
