@@ -24,25 +24,25 @@ Beyond data analysis, GaiaTonic provides contextual advice tailored to the speci
 ### User-Friendly Interface
 Designed with user experience in mind, GaiaTonic offers an intuitive interface that makes it easy for anyone to access our services. Whether you are a tech-savvy farmer or a beginner in home gardening, navigating our platform is straightforward and hassle-free.
 
-How It Works
+## How It Works
 GaiaTonic is engineered to dynamically compile and adapt its application logic on-the-fly, ensuring a responsive and tailored user experience. The core functionality revolves around the creation, refinement, and deployment of multi-agent teams that analyze data, synthesize information, and produce multimedia outputs, including detailed analyses and visual graphs. Here's a step-by-step breakdown of the process:
 
-Data Input and Synthesis: Upon receiving user-provided information, GaiaTonic initially generates synthetic data to simulate various scenarios. This approach allows for a broad analysis spectrum and the identification of optimal strategies early in the process.
+**Data Input and Synthesis:** Upon receiving user-provided information, GaiaTonic initially generates synthetic data to simulate various scenarios. This approach allows for a broad analysis spectrum and the identification of optimal strategies early in the process.
 
-Dynamic Team Composition: Utilizing the information and synthetic data, the application dynamically composes multi-agent teams. These teams are either predefined sets with specific expertise or are assembled on-the-fly based on the task's unique requirements.
+**Dynamic Team Composition:** Utilizing the information and synthetic data, the application dynamically composes multi-agent teams. These teams are either predefined sets with specific expertise or are assembled on-the-fly based on the task's unique requirements.
 
-Analysis and Optimization: The composed teams then proceed to refine the input prompts and data flows. This iterative process ensures the fine-tuning of analysis parameters and optimization of the advisory outputs.
+**Analysis and Optimization:** The composed teams then proceed to refine the input prompts and data flows. This iterative process ensures the fine-tuning of analysis parameters and optimization of the advisory outputs.
 
-Multimedia Output Production: Finally, the application produces comprehensive multimedia outputs. These include detailed analyses, actionable recommendations, and visual graphs, all tailored to the user's specific context and needs.
+**Multimedia Output Production:** Finally, the application produces comprehensive multimedia outputs. These include detailed analyses, actionable recommendations, and visual graphs, all tailored to the user's specific context and needs.
 
-Feedback Loop: Users can implement the recommended strategies and continue to engage with GaiaTonic for ongoing monitoring and refinement, ensuring continuous improvement and adaptation to changing conditions.
+**Feedback Loop:** Users can implement the recommended strategies and continue to engage with GaiaTonic for ongoing monitoring and refinement, ensuring continuous improvement and adaptation to changing conditions.
 
-**Data Collection:** 
+### Data Collection: 
 **Analysis:** Our multi-agent teams analyze the provided data, considering factors such as plant species, growth stage, and environmental conditions.
 **Advisory:** Based on the analysis, GaiaTonic generates personalized recommendations ranging from optimization strategies for greenhouses to selecting the best crops for planting and caring for houseplants.
 **Implementation:** Users can implement the advised strategies and continue to monitor progress through GaiaTonic, adjusting practices as needed based on ongoing analysis and feedback.
 
-# Applications
+## Applications
 **Agricultural Optimization:** Enhance crop yields and sustainability through data-driven farming practices.
 **Greenhouse Automation:** Implement advanced automation techniques for efficient resource use and optimal plant growth.
 **Public Health:** Promote healthier lifestyles and environments through the cultivation of green spaces and sustainable practices.
@@ -51,8 +51,15 @@ Feedback Loop: Users can implement the recommended strategies and continue to en
 # Getting Started
 To begin using GaiaTonic, follow these simple steps:
 
+### Quickstart :
 
-## Developpers
+the easiest way to deploy GaiaTonic for a completely standalone experience is to use github codespaces ! Just click here :
+
+### Hosted :
+
+### From Source :
+
+# Developpers
 
 Contributions to GaiaTonic are highly encouraged, whether it's through refining existing functionalities or introducing new features. 
 
@@ -66,6 +73,7 @@ The GaiaTonic repository is organized into several key directories, each serving
     - `/teamgraph`: Handles the visualization and graph-based representation of team structures and data flows.
     - `/config`: Stores configuration files and environmental settings.
     - `/prompts`: Contains templates and scripts for generating and refining input prompts.
+    - `/promptcompiler`: Contains the adaptive logic of GaiaTonic
     - `/plugins`: Includes additional functionalities and extensions that can be integrated into the main application.
 
 ### Contributing Guide
