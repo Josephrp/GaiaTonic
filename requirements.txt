@@ -1,0 +1,15 @@
+pandas
+chromadb
+langchain
+openai 
+ragas 
+arxiv 
+pymupdf 
+wandb 
+tiktoken 
+unstructured
+torch
+llama-index
+tqdm
+sentence-transformers
+dspy-ai[chromadb,qdrant,weaviate]
