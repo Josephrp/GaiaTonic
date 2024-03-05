@@ -49,8 +49,11 @@ GaiaTonic is engineered to dynamically compile and adapt its application logic o
 
 ## Applications
 **Agricultural Optimization:** Enhance crop yields and sustainability through data-driven farming practices.
+
 **Greenhouse Automation:** Implement advanced automation techniques for efficient resource use and optimal plant growth.
+
 **Public Health:** Promote healthier lifestyles and environments through the cultivation of green spaces and sustainable practices.
+
 **Educational Tool:** Serve as a resource for schools and organizations to teach principles of agriculture, sustainability, and environmental science.
 
 # Getting Started
