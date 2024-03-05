@@ -4,6 +4,7 @@ langchain
 openai 
 ragas 
 arxiv 
+pyautogen
 pymupdf 
 wandb 
 tiktoken 

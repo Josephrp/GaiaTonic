@@ -1,21 +1,21 @@
-
-import dspy
-import ragas
 import langchain
 import chromadb
+import dspy
 from dspy.datasets import DataLoader
 from dspy.dspy.experimental import SyntheticDataGenerator
 from chromadb_rm import ChromadbRM
 from langchain.document_loaders import DirectoryLoader
+import ragas
 from ragas.testset.generator import TestsetGenerator
 from ragas.testset.evolutions import simple, reasoning, multi_context
-from autogen import AssistantAgent, UserProxyAgent, config_list_from_json
+import autogen
+from autogen import config_list_from_json
 from src.teams.teambuilder import TeamCompose
-from src.teams.teamgraph import MultiTeamGraph
-from src.agentics import AgentFactory
-import src.config
-import src.gaiaprompts
-import src.promptcompiler 
+from src.teams.teamgraph.gaiagraph import GroupChatFSM , MultiTeamGraph
+from src.agentics.agentlist import AgentFactory
+from src.config
+from src.gaiaprompts
+from src.promptcompiler 
 import os
 import json
 
