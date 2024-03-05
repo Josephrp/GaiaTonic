@@ -13,8 +13,9 @@ from src.teams.teambuilder import TeamCompose
 from src.teams.teamgraph import MultiTeamGraph
 from src.agentics import AgentFactory
 from src.config import OAI_CONFIG_LIST
-from src.gaiaprompts import 
+from src.gaiaprompts 
 
+# os.getenv()
 
 dl = DataLoader()
 #load dataset from Ragas

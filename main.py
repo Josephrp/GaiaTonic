@@ -18,10 +18,12 @@ from src.gaiaprompts
 from src.promptcompiler 
 import os
 import json
+from dotenv import load_dotenv
 
 
 
 ## global vars (move elsewhere)
+load_dotenv()
 
 # Initialize configurations and group chat FSM with three teams based on the configuration
 configurations = config_list_from_json(config_json_content)
