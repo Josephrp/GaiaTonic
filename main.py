@@ -2,7 +2,7 @@ import langchain
 import chromadb
 import dspy
 from dspy.datasets import DataLoader
-from dspy.dspy.experimental import SyntheticDataGenerator
+from dspy.experimental import SyntheticDataGenerator
 from chromadb_rm import ChromadbRM
 from langchain.document_loaders import DirectoryLoader
 import ragas
